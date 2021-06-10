@@ -1,0 +1,204 @@
+.main{
+    width: auto;
+}
+.head li{
+    display: inline-block;
+    color: white;
+}
+.end{
+    padding-left: 830px;
+
+}
+.li1{
+     margin-left: 40px;
+}
+.call{
+    color: #0acce5;
+}
+.head, li, h{
+    font-size: 14px;
+}
+/* Head section end */
+
+/* .menu*/
+
+.menu{
+    padding: 10px 0;
+}
+.menu a,h2{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    line-height: 50px;
+}
+.menu .coo{
+    color: #0acce5;
+}
+.menu ul{
+    margin: 0;
+}
+.menu ul li{
+    display: inline-block;
+    line-height: 50px;
+}
+.menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 0 15px;
+    color: black;
+    transition: .5s;
+    position: relative;
+}
+.menu ul li:nth-child(1) a{
+    color: #0acce5;
+}
+.menu ul li a:hover{
+    color: #0acce5;
+}
+.menu ul li:nth-child(1) a::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 14px;
+    left: 15px;
+    background-color: #0acce5;
+    transition: .5s;
+}
+.menu ul li:nth-child(1):hover a::before{
+    width: 45px;
+    height: 2px;
+}
+.menu ul li:nth-child(2) a::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 14px;
+    left: 15px;
+    background-color: #0acce5;
+    transition: .5s;
+}
+.menu ul li:nth-child(2):hover a::before{
+    width: 52px;
+    height: 2px;
+}
+.menu ul li:nth-child(3) a::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0px;
+    bottom: 14px;
+    left: 15px;
+    background-color: #0acce5;
+    transition: .5s;
+}
+.menu ul li:nth-child(3):hover a::before{
+    width: 65px;
+    height: 2px;
+}
+.menu ul li:nth-child(3) a::after{
+    content: '\f0dd';
+    font-family: 'Font Awesome 5 Free';
+    font-size: 20px;
+    font-weight: 700;
+    color: grey;
+    margin-left: 2px;
+}
+.menu ul li:nth-child(4) a::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 14px;
+    left: 15px;
+    background-color: #0acce5;
+    transition: .5s;
+}
+.menu ul li:nth-child(4):hover a::before{
+    width: 82px;
+    height: 2px;
+}
+.menu ul li:nth-child(5) a::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 14px;
+    left: 15px;
+    background-color: #0acce5;
+    transition: .5s;
+}
+.menu ul li:nth-child(5):hover a::before{
+    width: 68px;
+    height: 2px;
+}
+
+ /* Menu bar end */
+
+.learn{
+    padding: 60px 0;
+    background-color: #0acce5;
+}
+
+/* .new{
+    background-color: #0acce5;
+     
+    padding: 30px 60px;
+    display: inline-block;
+}
+.new li{
+    display: inline-block;
+    padding: 16px 40px 40px 40px;
+    margin-left: 30px;
+
+}
+h4{
+    padding-top: 30px;
+    margin-left: 70px;
+}*/
+span a{
+    line-height: 90px;
+    background-color: #0acce5;
+    padding: 5px 8px;
+    box-shadow: 1px 1px 2px 3px rgba(0,0,0,.4) ;
+    border: none;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    position: relative;
+}
+span a::before{
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 4px;
+    top: -3px;
+    left: 4px;
+    background-color: #fff;
+    transform: skew(50deg);
+    transition: .5s;
+
+}
+span a::after{
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 4px;
+    bottom: -3px;
+    right: 5px;
+    background-color: #fff;
+    transform: skewX(50deg);
+    transition: .5s;
+}
+span a:hover::before{
+    left: 80%;
+}
+span a:hover::after{
+    right: 80%;
+}
+span a:hover{
+    color: black;
+}
